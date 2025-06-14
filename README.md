@@ -8,7 +8,7 @@ This calendar application provides a comprehensive solution for managing persona
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://your-calendar-app.vercel.app)** *(Update with your actual URL)*
+**[View Live Application](https://calendar-app-pi-two.vercel.app/)
 
 ## ✨ Key Features
 
@@ -136,13 +136,6 @@ npm run build
 
 ## 🔧 Development Decisions
 
-### State Management Strategy
-I chose React's built-in hooks over external libraries like Redux because:
-- Simpler setup and maintenance
-- Sufficient for the application's complexity
-- Better performance for this use case
-- Easier to understand and debug
-
 ### Styling Approach
 Implemented CSS-in-JS for:
 - Dynamic theming capabilities
@@ -156,19 +149,6 @@ Used localStorage because:
 - Instant data access
 - Offline functionality
 - Simple implementation
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-- [ ] Calendar displays current month correctly
-- [ ] Event creation works with all field types
-- [ ] Event editing preserves data integrity
-- [ ] Event deletion works (single and recurring)
-- [ ] Search functionality returns accurate results
-- [ ] Navigation between months functions properly
-- [ ] Responsive design works on mobile devices
-- [ ] Data persists after browser refresh
-- [ ] Import/export functionality works correctly
 
 ### Browser Compatibility
 - ✅ Chrome (latest)
@@ -206,12 +186,6 @@ This application is deployed on Vercel with automatic deployments from the main 
 - [ ] Advanced recurring event patterns
 - [ ] Event attachments and notes
 
-### Technical Improvements
-- [ ] Unit and integration testing
-- [ ] TypeScript migration
-- [ ] Performance monitoring
-- [ ] Error boundary implementation
-- [ ] Internationalization support
 
 ## 🤝 Contributing
 
@@ -220,7 +194,7 @@ Contributions are welcome! Please follow these steps:
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+4. Push to the branch (`git push origin feature/amazing-feture`)
 5. Open a Pull Request
 
 ### Development Guidelines
@@ -231,8 +205,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License 
 ## 🙏 Acknowledgments
 
 - **React Team** - For the excellent framework and documentation
@@ -240,15 +213,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Vercel** - For seamless deployment and hosting
 - **Open Source Community** - For inspiration and best practices
 
-## 📞 Contact
-
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
-
-**Project Link** - [https://github.com/yourusername/calendar-app](https://github.com/yourusername/calendar-app)
-
-**Live Demo** - [https://your-calendar-app.vercel.app](https://your-calendar-app.vercel.app)
-
----
 
 ## 📊 Project Statistics
 
@@ -262,76 +226,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *Built with ❤️ using React and modern web technologies*
-
-
-## 🎯 **Customization Areas for You**
-
-### **1. Personal Information**
-- Replace "Your Name" with your actual name
-- Add your email and social links
-- Update GitHub username and repository URL
-- Add your live demo URL
-
-### **2. Project Description**
-- Rewrite the overview in your own words
-- Add your personal motivation for building this
-- Include challenges you faced and overcame
-- Mention what you learned during development
-
-### **3. Technical Decisions**
-- Explain why YOU chose certain technologies
-- Add your reasoning for architectural decisions
-- Include your development process
-- Mention tools and resources you used
-
-### **4. Features Section**
-- Reorder features by importance to you
-- Add any unique features you implemented
-- Remove features you didn't include
-- Use your own descriptions and terminology
-
-### **5. Development Story**
-
-## 💭 My Development Journey
-
-### Initial Planning
-I started this project because...
-
-### Challenges Faced
-The most difficult part was...
-
-### Key Learning Points
-Through this project, I learned...
-
-### What I'm Proud Of
-I'm particularly proud of...
-
-
-### **6. Screenshots Section**
-Add your own screenshots:
-
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Calendar View](./screenshots/desktop-view.png)
-
-### Mobile View
-![Mobile Calendar View](./screenshots/mobile-view.png)
-
-### Event Creation
-![Event Creation Modal](./screenshots/event-modal.png)
-
-
-## 🔧 **Quick Customization Checklist**
-
-- [ ] Replace all placeholder URLs and names
-- [ ] Add your personal development story
-- [ ] Include your own screenshots
-- [ ] Update the technology stack if you made changes
-- [ ] Add your contact information
-- [ ] Customize the feature descriptions
-- [ ] Include your deployment URL
-- [ ] Add your own future enhancement ideas
 - [ ] Update the project statistics
 - [ ] Include your development timeline
 
